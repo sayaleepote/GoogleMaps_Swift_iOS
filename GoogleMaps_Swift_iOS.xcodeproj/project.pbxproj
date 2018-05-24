@@ -28,7 +28,7 @@
 		48B59F8A20B6975E00348FAA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B59F8920B6975E00348FAA /* SystemConfiguration.framework */; };
 		48B59F8D20B6C5B800348FAA /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B59F8B20B6C5B800348FAA /* AddLocationViewController.swift */; };
 		48B59F8E20B6C5B800348FAA /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B59F8C20B6C5B800348FAA /* LocationListViewController.swift */; };
-		48B59F9020B6D0BC00348FAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B59F8F20B6D0BC00348FAA /* ViewController.swift */; };
+		48B59F9220B6F3B300348FAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B59F9120B6F3B300348FAA /* ViewController.swift */; };
 		48B5DA3620B5773C00184BD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B5DA3520B5773C00184BD9 /* AppDelegate.swift */; };
 		48B5DA3B20B5773C00184BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B5DA3920B5773C00184BD9 /* Main.storyboard */; };
 		48B5DA3E20B5773C00184BD9 /* GoogleMaps_Swift_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48B5DA3C20B5773C00184BD9 /* GoogleMaps_Swift_iOS.xcdatamodeld */; };
@@ -58,7 +58,7 @@
 		48B59F8920B6975E00348FAA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		48B59F8B20B6C5B800348FAA /* AddLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
 		48B59F8C20B6C5B800348FAA /* LocationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationListViewController.swift; sourceTree = "<group>"; };
-		48B59F8F20B6D0BC00348FAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48B59F9120B6F3B300348FAA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		48B5DA3220B5773C00184BD9 /* GoogleMaps_Swift_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMaps_Swift_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B5DA3520B5773C00184BD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48B5DA3A20B5773C00184BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -122,7 +122,6 @@
 		48B5DA2920B5773C00184BD9 = {
 			isa = PBXGroup;
 			children = (
-				48B59F8F20B6D0BC00348FAA /* ViewController.swift */,
 				48B5DA3420B5773C00184BD9 /* GoogleMaps_Swift_iOS */,
 				48B5DA3320B5773C00184BD9 /* Products */,
 				48B59F6C20B6961500348FAA /* Frameworks */,
@@ -140,6 +139,7 @@
 		48B5DA3420B5773C00184BD9 /* GoogleMaps_Swift_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				48B59F9120B6F3B300348FAA /* ViewController.swift */,
 				48B59F8B20B6C5B800348FAA /* AddLocationViewController.swift */,
 				48B59F8C20B6C5B800348FAA /* LocationListViewController.swift */,
 				48B5DA3520B5773C00184BD9 /* AppDelegate.swift */,
@@ -229,7 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48B59F9020B6D0BC00348FAA /* ViewController.swift in Sources */,
+				48B59F9220B6F3B300348FAA /* ViewController.swift in Sources */,
 				48B5DA3620B5773C00184BD9 /* AppDelegate.swift in Sources */,
 				48B59F8E20B6C5B800348FAA /* LocationListViewController.swift in Sources */,
 				48B5DA3E20B5773C00184BD9 /* GoogleMaps_Swift_iOS.xcdatamodeld in Sources */,
